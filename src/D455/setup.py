@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'd455_detection = D455.d455:main',
         ],
     },
 )
